@@ -106,12 +106,10 @@ namespace PhamThanhXuan
                     case 2:
                         DeleteData(); break;
                     case 3:
-                        // Nhập tên công việc muốn cập nhật trạng thái
                         Console.WriteLine();
                         Console.Write("Nhập tên công việc muốn cập nhật trạng thái: ");
                         string taskNameToUpdateStatus = Console.ReadLine();
 
-                        // Nhập trạng thái mới
                         Console.Write("Nhập trạng thái mới: ");
                         string newStatus = Console.ReadLine();
                         UpdataStatusbasedName(taskNameToUpdateStatus, newStatus); break;
